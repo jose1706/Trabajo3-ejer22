@@ -1,0 +1,17 @@
+
+package ejer22C4;
+
+public class empleado1 {
+    String nombre;
+    public static String sal_men(double sal_hor, double horas, String nombre){
+        String resultado;
+        double salario_mensual = sal_hor*horas;
+        if (salario_mensual>450000){
+            resultado = "el empleado "+nombre+" recibe un salario mensual de "+salario_mensual;
+        }
+        else{
+            resultado = "el nombre del empleado es " + nombre;
+        }
+        return resultado;  
+    }
+}
