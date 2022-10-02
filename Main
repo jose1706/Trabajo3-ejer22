@@ -1,0 +1,8 @@
+package ejer22C4;
+public class Main {
+    public static void main(String[] args) {
+        VentanaE22 v4 = new VentanaE22();
+        v4.setVisible(true);
+    }  
+    
+}
